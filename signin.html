@@ -1,0 +1,195 @@
+	
+<!DOCTYPE html>
+<html>
+<head style="font-size: 16px;">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel='stylesheet'href='signin.css'>
+    <link rel="stylesheet" type="text/css" href="normalise.css">
+	<link rel='stylesheet'href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'>
+      <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+	<title>Signin page</title>
+</head>
+<body>
+	<body style="">
+  <img style="width: 60px; height: 55px;" src="LogoAppIcon3.jpg" class="LogoAppIcon3"/>
+  <img style="width: 756px; height: 991px; border-radius: 8px;" src="frame8.png"/>
+   <p style="font-size: 40px; font-weight: 700; line-height: 100%; color: black;" class="signup">Sign In</p>
+ <p style="font-size: 18px; font-weight: 500; line-height: 100%; color: rgba(0, 0, 0, 0.50);" class="writing">Welcome back! Please Sign in to your account</p>
+  <form id="loginform" onsubmit="" style="background-size: cover;">
+ <p style="font-size: 18px; font-weight: 600; line-height: 100%; color: black;" class="emailname">Email</p>
+<input name="mail" required id="mail" onkeyup="isEmpty()"type="Email" class="frame9" placeholder="Enter email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" style="width: 441px; height: 60px; padding-top: 19px; padding-bottom: 19px; padding-left: 16px; padding-right: 256px; border-radius: 7.60px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(0, 0, 0, 0.30); display: inline-flex; flex-direction: row; align-items: center; justify-content: flex-start;">
+</input>
+<p class="password" style="font-size: 18px; font-weight: 600; line-height: 100%; color: black;">Password</p>
+<input name="psw" required id="password" onkeyup="isEmpty()" type="password" minlength="8" class="enterpassword" placeholder="Enter password" style="width: 441px; height: 60px; padding-top: 19px; padding-bottom: 19px; padding-left: 16px; padding-right: 292px; border-radius: 7.60px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(0, 0, 0, 0.30); display: inline-flex; flex-direction: row; align-items: center; justify-content: flex-start;">
+</input>
+    
+
+<!--<img style="width: 20px; height: 20px; border-radius: 8px;" src="https://via.placeholder.com/20x20"/>
+<input class="text-lg font-small" type="checkbox" checked="checked" name="remember" style="margin-bottom:"></input> <p class="checkboxlabel">keep me Signed in</p>-->
+ <input name="remember" required  onkeyup="isEmpty()" class="text-lg" type="checkbox" value="lsRememberMe" id="rememberMe"> <label style="position: absolute;
+width: 169px;
+height: 27px;
+left: 942px;
+top: 419px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to bo" for="rememberMe">keep me signed in</label>
+
+
+<a class="forgotpassword" href="forgotpassword.html" style="font-size: 18px; left: 1150px; font-weight: 500; line-height: 100%; color: rgba(23.71, 81.24, 229.17, 1);">Forgot password?</a>
+
+<button  type="submit" id="btn" disabled class="button"  style="width: 230px; height: 60px; padding-left: 80px; padding-right: 80px; padding-top: 17px; padding-bottom: 16px; background-color: rgba(23.71, 81.24, 229.17, 1); border-radius: 7.60px; display: inline-flex; flex-direction: row; align-items: center; justify-content: center;
+    font-size: 17px; font-weight: 800; line-height: 100%; color: white;">Sign In
+</button>
+ 
+
+<script type="text/javascript">
+  function isEmpty() {
+    // body...
+    let rememberMe = document.getElementById('rememberMe').value;
+    let email = document.getElementById('mail').value;
+    let password = document.getElementById('password').value;
+   // let repeatpassword = document.getElementById('repeatpassword').value;
+
+    if(rememberMe!="" && email!="" && password!="" ){//&& repeatpassword !=""){
+      document.getElementById('btn').removeAttribute("disabled")
+    }
+  }
+
+
+  //function takevalue()
+  //{
+  //	var email = document.getElementById('rememberMe').value;
+  	//var password = document.getElementById('password').value;
+
+ // }
+</script>
+
+
+<p class="orsignup" style="font-size: 19.01px; font-weight: 500; line-height: 100%; color: rgba(0, 0, 0, 0.60);">or Sign in with</p>
+<div class="fline" style="width: 135px; height: 2px; background-color: rgba(178.73, 176.14, 176.14, 1);"/>
+<div class="sline" style="width: 135px;left: 48.5vh; height: 2px; background-color: rgba(178.73, 176.14, 176.14, 1);"/>
+
+<div class="googleimg" style="width: 44px; height: 44px;   left: -30vh; ">
+    <a href="#"><button class="google" style="width: 44px; height: 44px; padding: 6px; background-color: rgba(150.49, 182.25, 229.89, 0.30); border-radius: 10.14px; display: flex; border-color: rgba(150.49, 182.25, 229.89, 0.30);  flex-direction: row; align-items: center; justify-content: center;">
+        <img class="googl" style="width: 31.43px; height: 31.43px; border-radius: 8px; left: -50vh;" src="group5.png"/>
+    </button></a>
+</div>    
+
+
+  <div class="facebookimg" style="width: 44px; height: 44px; left:-18vh;">
+    <a href="#"><button href="" style="width: 44px; height: 44px; padding: 6px; background-color: rgba(150, 182, 230, 0.30); border-radius: 10.14px; display: flex; border-color:rgba(150, 182, 230, 0.30); flex-direction: row; align-items: center; justify-content: center;">
+        <img style="width: 31.43px; height: 31.43px; border-radius: 8px;" src="group6.png"/>
+    </button></a>
+</div>
+
+
+<div class="twitterimg" style="width: 44px; height: 44px; left: -5vh">
+    <a href="#"><button style="width: 44px; height: 44px; padding: 6px; background-color: rgba(150, 182, 230, 0.30); border-radius: 10.14px; display: flex;border-color: rgba(150, 182, 230, 0.30); flex-direction: row; align-items: center; justify-content: center;">
+        <img style="width: 31.43px; height: 31.43px; border-radius: 8px;" src="group7.png"/>
+    </button></a>
+</div>
+
+<p class="signuplink" style="font-size: 19.01px; line-height: 100%;  left: -40vh;">Don't have an account? <a href="signup.html" 
+ rel="" style="color:blue;">Sign up</a> </p>
+</form>
+
+
+ <footer style="    position: relative;width:2200px; height: 870px; background-color: rgba(1.66, 20.96, 70.59, 1);">
+    <img class="footerlogo" style="width: 244px; height: 72px;" src="footerlogowhite.png"/>
+   
+    <div>
+    	<div><p class="overview" style="left: 960px; top: 306px; position: absolute; font-size: 28px; font-weight: 500; line-height: 100%; color: white;">Overview</p></div>
+    <p style="left: 960px; top: 654px; position: absolute; font-size: 26px; line-height: 100%; color:white;">Follow Us</p>
+    <div><p style="left: 1186px; top: 306px; position: absolute; font-size: 28px; font-weight: 500; line-height: 100%; color: white;">Online Services</p></div>
+    <div><p style="left: 1488px; top: 306px; position: absolute; font-size: 28px; font-weight: 500; line-height: 100%; color: white;">Offices</p></div>
+   <div> <p style="left: 1748px; top: 306px; position: absolute; font-size: 28px; font-weight: 500; line-height: 100%; color: white;">Our Newsletter</p></div>
+    <div><a href="home.html" style="left: 960px; top: 376px; position: absolute; font-size: 26px; line-height: 100%; color: white;">Home</a></div>
+   <div> <a href="" style="left: 1186px; top: 376px; position: absolute; font-size: 26px; line-height: 100%; color: white;">Payment Methods</a></div>
+    <p style="width: 414px; left: 1748px; top: 376px; position: absolute; font-size: 26px; line-height: 100%; color: white;">Subscribe to our newsletter to <br> get updates on our latest <br>  properties.</p>
+    <div><a href="" style="left: 960px; top: 426px; position: absolute; font-size: 26px; line-height: 100%; color: white;">Services </a></div>
+    <div><a href="" style="left: 960px; top: 476px; position: absolute; font-size: 26px; line-height: 100%; color: white;">About</a></div>
+   <div> <a href="" style="left: 1186px; top: 426px; position: absolute; font-size: 26px; line-height: 100%; color: white;">My Account</a></div>
+    <div><a href="" style="left: 1186px; top: 476px; position: absolute; font-size: 26px; line-height: 100%; color: white;">Book Agents</a></div>
+    <div><a href="#" style="left: 960px; top: 526px; position: absolute; font-size: 26px; line-height: 100%; color: white;">Contact Us</a></div>
+   <div> <a href="y" style="left: 1186px; top: 526px; position: absolute; font-size: 26px; line-height: 100%; color: white;">FAQ</a></div>
+</div>
+    <div style="width: 28px; height: 28px; left: 960px; top: 709px; position: absolute;">
+        <div style="width: 28px; height: 28px; padding: 2px; background-color: rgba(1.79, 60.88, 212.84, 1); border-radius: 5px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+            <a href=""><img style="width: 24px; height: 24px; border-radius: 8px;" src="Group14.png"></a>
+        </div>
+    </div>
+    <div style="width: 28px; height: 28px; left: 1000px; top: 709px; position: absolute;">
+        <div style="width: 28px; height: 28px; padding-left: 4px; padding-right: 4px; padding-top: 2px; padding-bottom: 7px; background-color: rgba(1.79, 60.88, 212.84, 1); border-radius: 5px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+            <a href=""> <img src="Group18.png" style="width: 20px; height: 18.79px; background-color: white; border-radius: 8px;"></a>
+        </div>
+    </div>
+
+    <div style="width: 28px; height: 28px; left: 1040px; top: 709px; position: absolute;">
+        <div style="width: 28px; height: 28px; padding: 2px; background-color: rgba(1.79, 60.88, 212.84, 1); border-radius: 5px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+           <a href=""><img style="width: 24px; height: 24px; border-radius: 8px;" src="Group15.png"></a>
+        </div>
+    </div>
+    <div style="width: 28px; height: 28px; left: 1080px; top: 709px; position: absolute;">
+        <div style="width: 28px; height: 28px; padding: 2px; background-color: rgba(1.79, 60.88, 212.84, 1); border-radius: 5px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+           <a href=""> <img style="width: 24px; height: 24px; border-radius: 8px;" src="Group16.png"></a>
+        </div>
+    </div>
+    <div style="width: 28px; height: 28px; left: 1120px; top: 709px; position: absolute;">
+        <div style="width: 28px; height: 28px; padding: 2px; background-color: rgba(1.79, 60.88, 212.84, 1); border-radius: 5px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+            <a href=""><img style="width: 24px; height: 24px; border-radius: 8px;" src="Group17.png"></a>
+        </div>
+    </div>
+    <div style="width: 191.40px; height: 38px; left: 1458px; top: 379px; position: absolute; display: inline-flex; flex-direction: column; align-items: flex-start; justify-content: flex-end;">
+        <a href="#" style=" left: 1488px; top: 426px; width: 191.40px; height: 36.83px; font-size: 26px; line-height: 100%; color: white;">Abuja Offices</a>
+        <div style="height: 1.47px;"/>
+        <div style="width: 164px; height: 1px;"/>
+    </div>
+    </div>
+    </div>
+    <div style="width: 196.40px; height: 38px; left: 1458px; top: 426px; position: absolute; display: inline-flex; flex-direction: column; align-items: flex-start; justify-content: flex-end;">
+        <a href="#" style=" left: 1488px; top: 476px;width: 196.40px; height: 37.37px; font-size: 26px; line-height: 100%; color: white;">Lagos Offices</a>
+       <div style="height: 1.03px;"/>
+        <div style="width: 170px; height: 1px;"/>
+    </div>
+    </div>
+    </div>
+    <div style="width: 167.40px; height: 37.40px; left: 1458px; top: 476px; position: absolute; display: inline-flex; flex-direction: column; align-items: flex-start; justify-content: flex-end;">
+        <a href="#" style=" left: 1488px; top: 526px;width: 167.40px; height: 37.37px; font-size: 26px; line-height: 100%; color: white;">Uyo Offices</a>
+         <div style="height: 1.47px;"/>
+       <div style="width: 143px; height: 1px;"/>
+   </div>
+    </div>
+   </div>
+    <form action="mailto:.com" method="POST" class="email-form"style="width: 414px; height: 60px; padding-left: 40px; padding-right: -0px; left: 1748px; top: 506px; position: absolute; background-color: ; border-radius: 4px; display: inline-flex; flex-direction: row; align-items: center; justify-content: flex-end;">
+      <input type="Email" name="email Subscribtion" class="form-control" style="width: 261px;left:1.7px; top: 02.5px; height: 55px; padding-left: 12px; padding-right: -0px; position: absolute; background-color: white; border-radius: 4px; display: inline-flex; flex-direction: row; align-items: center; justify-content: flex-end; ">
+     
+        <button style="width: 153px;left: 1748px;top:100px; height: 60px; padding-left: 40px; padding-right: 40px; padding-top: 15px; padding-bottom: 15px; background-color: rgba(2, 61, 213, 1); border-top-right-radius: 4px; border-bottom-right-radius: 4px; display: flex; flex-direction: row; align-items: center; justify-content: center; ">
+          
+            <p style="width: 125.40px; height: 10.40px; font-size: 26px; line-height: 100%; color: white; ">Subscribe</p>
+        </button>
+      </input>
+    </form>
+    <div style="width: 596px; height: 1px; left: 1230px; top: 793px; position: absolute; position: relative;">
+        <p style="left: 0px; top: 0px; position: absolute; font-size: 26px; line-height: 100%; color: white;">Copyright
+       2022 Ruxagent. All rights reserved.</p>
+        <div style="width: 23.51px; height: 24.21px; left: 130px; top: 3.21px; position: absolute; background-color:  rgba(1.66, 20.96, 70.59, 1);border-radius: 8px;"/>
+    </div>
+    
+  </footer>
+!-- bootstrap js and popper -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="server.js"></script>
+</body>
+</html>

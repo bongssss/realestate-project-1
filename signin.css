@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+  height: fixed;
+ margin: 0 ;
+ padding: 9;
+ width: fixed;
+ background-size: cover;
+}
+ .signup{
+position: absolute;
+width: 155px;
+height: 60px;
+left: 914px;
+top: 97px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+}
+
+.LogoAppIcon3{
+position: absolute;
+width: 60px;
+height: 55px;
+left: 1295px;
+top: 3px;
+
+background: url(.png);
+}
+
+.writing{
+position: absolute;
+width: 420px;
+height: 27px;
+left: 914px;
+top: 161px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.emailname{
+  position: absolute;
+width: 51px;
+height: 27px;
+left: 914px;
+top: 204px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.frame9{
+ box-sizing: border-box;
+
+position: absolute;
+width: 441px;
+height: 60px;
+left: 914px;
+top: 236px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 7.60454px;
+}
+
+.password{
+position: absolute;
+width: 89px;
+height: 27px;
+left: 914px;
+top: 312px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.enterpassword
+{
+	box-sizing: border-box;
+
+position: absolute;
+width: 441px;
+height: 60px;
+left: 914px;
+top: 343px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 7.60454px;
+}
+.frame13
+{
+box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 914px;
+top: 420px;
+
+border: 1px solid #1851E5;
+border-radius: 2px;
+}
+.text-lg
+{
+box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 914px;
+top: 422px;
+
+border: 1px solid #1851E5;
+border-radius: 2px;
+}
+
+.forgotpassword
+{
+	position: absolute;
+width: 162px;
+height: 27px;
+left: 1261px;
+top: 419px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+color: #1851E5;
+
+
+}
+
+.button
+{
+	position: absolute;
+width: 230px;
+height: 60px;
+left: 1019px;
+top: 490px;
+
+background: #1851E5;
+border-radius: 7.60454px;
+}
+
+.orsignup 
+{
+  position: absolute;
+width: 142px;
+height: 29px;
+left: 1064px;
+top: 662px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 19.0113px;
+line-height: 29px;
+
+/* identical to box height */
+
+color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+
+
+.sline 
+{
+ position: absolute;
+width: 13vh;
+height: 2px;
+left:1220vh;
+top: 0vh;
+
+
+background: #B3B0B0;
+}
+
+.fline
+{
+  position: absolute;
+width: 135px;
+height: 2px;
+left: 914px;
+top: 673px;
+
+background: #B3B0B0;
+}
+
+.googleimg
+{
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 1440px;
+top: 33px;
+}
+
+.facebookimg
+{
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 1112px;
+top: 33px;
+
+}
+
+.twitterimg
+{
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 1184px;
+top: 33px;
+}
+
+.signuplink
+{
+  position: absolute;
+width: 323px;
+height: 29px;
+left: 954px;
+top: 117px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 19.0113px;
+line-height: 29px;
+}
+
+
+footer
+{
+position: absolute;
+width: 2200px;
+height: 870px;
+left: -2000px;
+top: 215px;
+background: #021547;
+padding-bottom:;
+}
+
+.footerlogo
+{
+  position: absolute;
+width: 244px;
+height: 72px;
+left: 1400px;
+top: 190px;
+
+background: url(.png);
+}
+.overview
+{
+  position: absolute;
+width: 131px;
+height: 42px;
+left: 100px;
+top: 196px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 42px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+ 

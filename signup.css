@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body{
+  max-width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+ .signup{
+
+position: absolute;
+width: 155px;
+height: 60px;
+left: 914px;
+top: 97px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+}
+
+.LogoAppIcon3{
+position: absolute;
+width: 60px;
+height: 55px;
+left: 1295px;
+top: 3px;
+
+background: url(.png);
+}
+
+.writing{/* Register your account */
+
+position: absolute;
+width: 200px;
+height: 27px;
+left: 914px;
+top: 161px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: rgba(0, 0, 0, 0.5);
+}
+.name{
+  /* Name */
+
+position: absolute;
+width: 56px;
+height: 27px;
+left: 914px;
+top: 204px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+.entername{
+  box-sizing: border-box;
+
+position:absolute;
+width: 441px;
+height: 60px;
+left: 914px;
+top: 235px;
+
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 7.60454px;
+}
+.emailname{
+  position: absolute;
+width: 51px;
+height: 27px;
+left: 914px;
+top: 311px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: #000000;
+}
+.frame9{
+  box-sizing: border-box;
+
+position: absolute;
+width: 441px;
+height: 60px;
+left: 914px;
+top: 344px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 7.60454px;
+}
+.password{
+ position: absolute;
+width: 89px;
+height: 27px;
+left: 914px;
+top: 412px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.enterpassword{
+box-sizing: border-box;
+
+position: absolute;
+width: 441px;
+height: 60px;
+left: 914px;
+top: 443px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 7.60454px;
+}
+.confirmpassword{
+  position: absolute;
+width: 176px;
+height: 27px;
+left: 914px;
+top: 526px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: #000000;
+}
+.frame10{
+  box-sizing: border-box;
+
+position: absolute;
+width: 441px;
+height: 60px;
+left: 914px;
+top: 557px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 7.60454px;
+}
+.frame11{
+  position: absolute;
+width: 230px;
+height: 60px;
+left: 1019px;
+top: 657px;
+
+background: #7497F0;
+border-radius: 7.60454px;
+}
+
+.orsignup 
+{
+  position: absolute;
+width: 142px;
+height: 29px;
+left: 1064px;
+top: 762px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 19.0113px;
+line-height: 29px;
+
+/* identical to box height */
+
+color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+
+
+.sline 
+{
+ position: absolute;
+width: 13vh;
+height: 2px;
+left:1220vh;
+top: 0vh;
+
+
+background: #B3B0B0;
+}
+
+.fline
+{
+  position: absolute;
+width: 135px;
+height: 2px;
+left: 914px;
+top: 773px;
+
+background: #B3B0B0;
+}
+
+.googleimg
+{
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 1440px;
+top: 33px;
+}
+
+.facebookimg
+{
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 1112px;
+top: 33px;
+
+}
+
+.twitterimg
+{
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 1184px;
+top: 33px;
+}
+
+.signinlink
+{
+  position: absolute;
+width: 323px;
+height: 29px;
+left: 954px;
+top: 117px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 19.0113px;
+line-height: 29px;
+}
+
+footer
+{
+position: absolute;
+width: 2200px;
+height: 870px;
+left: -2000px;
+top: 215px;
+background: #021547;
+}
+
+.footerlogo
+{
+  position: absolute;
+width: 244px;
+height: 72px;
+left: 1400px;
+top: 190px;
+
+background: url(.png);
+}
+.overview
+{
+  position: absolute;
+width: 131px;
+height: 42px;
+left: 100px;
+top: 196px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 42px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.form-control.sucess input {
+  border-color: #2ecc71;
+}
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control i {
+  position: absolute;
+  top: 40px
+  right:10px;
+  visibility: hidden;
+}
+.form-control small {
+  visibility:hidden ;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.form-control-eror small {
+  visibility:visible ;
+  color:  #e74c3c;
+}
+.form-control.sucess i.fa-check-circle{
+  visibility: visible;
+  color:  #2ecc71;
+}
+.form-control.error i.fa-exclamation-circle{
+  visibility: visible;
+  color:  #e74c3c;
+}
+
+
+@media(max-width:576px) {
+ body{
+  max-width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+ 
+}
+

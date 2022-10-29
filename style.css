@@ -1,0 +1,323 @@
+*{
+  margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+section{
+	max-width:100%;
+    min-height:100vh;
+    display:inline-flex;
+    justify-content:center ;
+    flex-direction: row column;
+    align-items: center ;
+    overflow-x: hidden;
+}
+
+    .LogoAppIcon3{
+    	position: absolute;
+     left: 200px;
+     top: 3px; 
+ }
+
+
+.signup{
+	position: absolute;font-size: 40px; font-weight: 700; line-height:100%; color: black;left: 814px; top: 102px;
+}
+.writing{/* Register your account */
+
+position: absolute;
+width: 200px;
+height: 27px;
+left: 814px;
+top: 151px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size:18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+
+.form{
+	position: absolute;
+	left: 790px;
+	top:180px;
+}
+label{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+}
+.input{
+	width: 441px;
+	 height: 60px;
+	  padding-top: 19px; 
+	  padding-bottom: 19px;
+	   padding-left: 16px; 
+	   padding-right: 16px;
+	    border-radius: 7.60px; 
+	    border-style: solid; 
+	    border-width: 1px; 
+	    border-color: rgba(0, 0, 0, 0.30); 
+}
+
+
+	
+button{
+	position: absolute;
+	
+	left: 124px;
+	top:380px;
+}
+
+.signinlink{
+	position: absolute;
+	font-size: 19.0113px;
+	 font-weight: 500;
+	 top:auto;
+
+	  line-height:500px; 
+	  color:color: rgba(0, 0, 0, 0.6);
+
+ left: 900px;
+}
+footer{
+	max-width:100%;
+    min-height:100vh;
+    display:flex;
+    
+    flex-direction:row column;
+    align-items: center;
+    overflow-x: hidden;
+    background: #021547;
+}
+
+
+
+@media screen and (max-width:576px) {
+	
+.LogoAppIcon3{
+	left: 320px;
+	 width:26px;
+	 height:25px;
+
+}
+.image{
+	 height:auto;
+        display:hide;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+}
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+	
+	.LogoAppIcon3{
+	left:200vh;
+	position: absolute;
+
+}
+.image{
+	 height:auto;
+        display:hide;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+	and (max-device-width: 1024px) {
+
+.LogoAppIcon3{
+	left:550px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+	@media screen and (min-device-width: 820px)
+	and (max-device-width: 1180px) {
+		
+
+.LogoAppIcon3{
+	left:950px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+	@media screen and (min-device-width: px)
+	and (max-device-width: 820px) {
+		
+.LogoAppIcon3{
+	left:750px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+@media screen and (min-device-width:912px)
+	and (max-device-width: 1368px) {
+		
+.signinlink{
+ top: 390px;
+ left: 120px,
+}
+
+.LogoAppIcon3{
+	left:1250px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+	@media screen and (max-device-height:1368px )
+	and (max-device-width: 912px) {
+		
+.LogoAppIcon3{
+	left:750px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+@media screen and (min-device-width: 540px)
+	and (max-device-width: 720px) {
+
+.LogoAppIcon3{
+	left:515px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+	@media screen and (min-device-width: 280px)
+	and (max-device-width: 653px) {
+
+.LogoAppIcon3{
+	left:180px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+	@media screen and (min-device-width: 412px)
+	and (max-device-width: 914px) {
+
+.LogoAppIcon3{
+	left:350px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+	@media screen and (min-device-width: 600px)
+	and (max-device-width: 1024px) {
+		
+
+.LogoAppIcon3{
+	left:950px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+	@media screen and (min-device-width: 800px)
+	and (max-device-width: 1280px) {
+
+.LogoAppIcon3{
+	left:1150px;
+	position: absolute;
+
+}
+.image{
+	 height:100vh;
+        display:hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+	}
+
+
+
+
+
+
+
+

@@ -1,0 +1,226 @@
+
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: auto;
+}
+.logo img
+{
+   width:100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left:20px;
+     box-shadow: 60px 50px 50px 50px blue inset;
+   background-blend-mode: lighten;
+ }
+
+.topnav
+{
+	
+    position:sticky;
+   top:0;
+    left:0;
+    z-index:100;
+   padding: .5rem 5rem .5rem 0;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+    text-align: center;
+}
+
+.topnav .rux
+{
+    font-size: 25px;
+    font-weight:800;
+    color:#e6e6e6 !important;
+    text-align: center;
+}
+
+.topnav a
+{
+text-decoration:none;
+}
+
+
+body
+{
+	display: flex;
+	height: auto;
+	width: auto ;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #000033;
+ 	opacity: 0.85;
+}
+
+.main-nav li a
+{
+    
+    text-decoration: none;
+    font-weight: 800;
+  
+}
+
+.navbar a
+{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+h3
+{
+display: flex;
+border: 1px solid black;
+float: center;
+margin-left: 43px;
+}
+
+.services
+{
+display: auto;
+border: 1px solid black;
+}
+
+
+ header
+ {
+ 	background-color: #000033;
+ 	opacity: 0.85;
+ }
+
+ li
+ {
+ 	display: inline;
+ 	float: right;
+ }
+
+ ul 
+ {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  padding: 35px;
+  background-color: #dddddd;
+}
+
+section .properties{
+    max-width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+
+.properties
+{
+    background:white !important;
+}
+
+}
+
+.properties h1
+{
+    color:#fff;
+    font-weight: 600;
+}
+
+.properties img
+{
+    width:250px;
+    height:250px   
+}
+
+.card
+{
+    height:400px;
+    width:250px;
+    border:none !important;
+    box-shadow:15px 20px 20px rgba(0,0,0,.6),
+                inset -4px -4px 10px #fff;
+    border-radius:15px !important;
+    overflow:hidden;
+    align-items: center;
+    justify-content: center;
+    margin:20px 60px;
+}
+
+.card .card-body p
+ {
+    color: green !important;
+    font-weight:600;
+}
+.card:hover
+{
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3);
+    transition:.2s;
+    border:2px solid black !important;
+         
+}
+
+ .card
+ {
+        margin-left:auto;
+        margin-right: auto;
+}
+
+.appointment h2
+{
+display: flex;
+border: 1px solid transparent;
+float: center;
+margin-left: 250px;
+margin-top: 50vh;
+margin-bottom: 52vh;
+height: 6vh;
+color: #D8E3F9,
+}
+.appointment h2 input
+{
+   display: flex;
+   height: 6vh;
+   margin-top: ;
+   float: center;
+   margin-left: 250px;
+}
+
+
+footer{
+    background: linear-gradient(to right, rgba( 55,0,255,0), rgba(1,0,0,255))#001149;
+    background-blend-mode:lighten;
+    color:white;
+    text-align: center;
+    padding:15vh;
+    width: auto;
+	 }
+footer img
+{
+   box-shadow: 60px 50px 50px 50px blue inset;
+   background-blend-mode: lighten;
+  float: top;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+}
+.container h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+  margin-left:90px ;
+}
+
+.container ul {
+  padding:5vh;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:5vh;
+}
